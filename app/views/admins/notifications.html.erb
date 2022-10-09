@@ -1,0 +1,42 @@
+<h1>Notification Configurations</h1>
+<div>
+  <div class="input-group">
+    <label for="startDate">Search</label>&nbsp;&nbsp;
+    <input id="startDate" class="form-control" type="text" />&nbsp;
+  </div>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th>Select</th>
+    <th scope="col">Name</th>
+    <th scope="col">Interval</th>
+    <th scope="col">Status</th>
+    <th> Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td width="5px"><input type="checkbox" value="" id="flexCheckChecked"></td>
+    <td>Due Notification</td>
+    <td>5 days before</td>
+    <td>Active</td>
+    <td><a href="/admins/new_notification" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td width="5px"><input type="checkbox" value="" id="flexCheckChecked"></td>
+    <td>Disconnection Notification</td>
+    <td>5 days after</td>
+    <td>Active</td>
+    <td><a href="/admins/new_notification" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  </tbody>
+</table>
+<div>
+  <%= link_to "New", admins_new_notification_path,class: "btn btn-primary" %>
+  <%= link_to "Activate", "#", class: "btn btn-primary" %>
+  <%= link_to "Disable", "#", class: "btn btn-secondary" %>
+</div>

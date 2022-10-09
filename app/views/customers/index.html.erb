@@ -1,0 +1,60 @@
+<h1>Customers</h1>
+<div class="input-group">
+  <label for="startDate">Start Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08"/>&nbsp;
+  <label for="startDate">End Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08" />
+</div>
+<br>
+<div>
+  <div class="input-group">
+    <label for="startDate">Search</label>&nbsp;&nbsp;
+    <input id="startDate" class="form-control" type="text" />&nbsp;
+  </div>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">First Name</th>
+    <th scope="col">Last Name</th>
+    <th scope="col">Address</th>
+    <th scope="col">Mobile</th>
+    <th> Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Larry</td>
+    <td>Villa</td>
+    <td>Edenton, Sison, Maitum, Sarangani Province, South Cotabo</td>
+    <td>09178845673</td>
+    <td><a href="/customers/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a>
+      <a href="/customers/view_customer" class="nav-link align-middle px-0 link-dark fs-4 bi-eye"></a>
+    </td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Glenn</td>
+    <td>Miguel</td>
+    <td>Maligay, Sison, Maitum, Sarangani Province, South Cotabo</td>
+    <td>09148845323</td>
+    <td><a href="/customers/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a>
+      <a href="/customers/view_customer" class="nav-link align-middle px-0 link-dark fs-4 bi-eye"></a>
+    </td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>Rushel John</td>
+    <td>Gabatin</td>
+    <td>Edenton, Sison, Maitum, Sarangani Province, South Cotabo</td>
+    <td>09168845323</td>
+    <td><a href="/customers/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a>
+      <a href="/customers/view_customer" class="nav-link align-middle px-0 link-dark fs-4 bi-eye"></a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<%= link_to "New customer", new_customer_path, class: "btn btn-primary" %>

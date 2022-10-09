@@ -1,0 +1,45 @@
+<h1>New Service</h1>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Customer</label>
+    <select class="form-select" aria-label="Default select example">
+      <option value="1">Larry Lloyd Villa</option>
+      <option value="2">Glenn Miguel</option>
+      <option value="2">Rushel John Gabatin</option>
+      <option value="2">Ely Antic Jr.</option>
+      <option value="2">Arly Tañedo</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Service</label>
+    <select class="form-select" aria-label="Default select example">
+      <option value="1">Installation</option>
+      <option value="2">Disconnection</option>
+      <option value="2">Reconnection</option>
+      <option value="2">Repair</option>
+      <option value="2">Checkup</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Price</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="100">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Qty</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Total Amount</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="100">
+  </div>
+  <div>
+    <%= link_to "Save", "#", class: "btn btn-primary" %>
+  </div>
+</form>
+
+<br>
+
+<div>
+  <%= link_to "Back to services", services_path %>
+</div>

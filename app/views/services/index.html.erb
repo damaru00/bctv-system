@@ -1,0 +1,83 @@
+<h1>Services</h1>
+<div class="input-group">
+  <label for="startDate">Start Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08"/>&nbsp;
+  <label for="startDate">End Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08" />
+</div>
+<br>
+<div>
+  <div class="input-group">
+    <label for="startDate">Search</label>&nbsp;&nbsp;
+    <input id="startDate" class="form-control" type="text" />&nbsp;
+  </div>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Service #</th>
+    <th scope="col">Service</th>
+    <th scope="col">Amount</th>
+    <th scope="col">Date</th>
+    <th>Status</th>
+    <th> Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Larry Lloyd Villa</td>
+    <td>34566</td>
+    <td>Installation</td>
+    <td>400</td>
+    <td>October 08, 2022</td>
+    <td>Pending</td>
+    <td><a href="/services/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Glenn Miguel</td>
+    <td>34567</td>
+    <td>Disconnection</td>
+    <td>0</td>
+    <td>October 08, 2022</td>
+    <td>Ongoing</td>
+    <td><a href="/services/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>Rushel John Gabatin</td>
+    <td>34568</td>
+    <td>Reconnection</td>
+    <td>230</td>
+    <td>October 08, 2022</td>
+    <td>Completed</td>
+    <td><a href="/services/new" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  <tr>
+    <th scope="row">4</th>
+    <td>Ely Antic Jr.</td>
+    <td>34568</td>
+    <td>Repair</td>
+    <td>230</td>
+    <td>October 08, 2022</td>
+    <td>Paid</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th scope="row">6</th>
+    <td>Arly Tañedo</td>
+    <td>34570</td>
+    <td>Check-up</td>
+    <td>100</td>
+    <td>October 08, 2022</td>
+    <td>Paid</td>
+    <td></td>
+  </tr>
+  </tr>
+  </tbody>
+</table>
+<br />
+<%= link_to "New Service", new_service_path, class: "btn btn-primary" %>

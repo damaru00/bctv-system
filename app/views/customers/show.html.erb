@@ -1,0 +1,75 @@
+<h1>New customer</h1>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">First Name</label>
+    <label for="exampleInputEmail1" class="form-label">larry</label>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Last Name</label>
+    <label for="exampleInputEmail1" class="form-label">Villa</label>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Purok</label>
+    <select class="form-select" aria-label="Default select example">
+      <option value="1">Edenton</option>
+      <option value="2">Maligaya</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Baranngay</label>
+    <select class="form-select" aria-label="Default select example">
+      <option value="1">Sison</option>
+      <option value="2">Oldpob</option>
+      <option value="2">Kiayap</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Baranngay</label>
+    <select class="form-select">
+      <option value="1">Maitum</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Province</label>
+    <select class="form-select">
+      <option value="1">South Cotabato</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Plan</label>
+    <select class="form-select">
+      <option value="1">Household</option>
+      <option value="2">Commercial</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+    <label for="exampleInputEmail1" class="form-label">09178845673</label>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+    <label for="exampleInputEmail1" class="form-label">larryvilla@gmail.com</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Notify via SMS
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+      Notify Email
+    </label>
+  </div>
+  <div>
+    <%= link_to "Save", "#", class: "btn btn-primary" %>
+  </div>
+</form>
+
+<br>
+
+<div>
+  <%= link_to "Back to customers", customers_path %>
+</div>

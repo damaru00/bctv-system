@@ -1,0 +1,72 @@
+<h1>View customer</h1>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">First Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="larry" disabled>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Last Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Villa" disabled>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Purok</label>
+    <select class="form-select" aria-label="Default select example" disabled>
+      <option value="1">Edenton</option>
+      <option value="2">Maligaya</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Baranngay</label>
+    <select class="form-select" aria-label="Default select example" disabled>
+      <option value="1">Sison</option>
+      <option value="2">Oldpob</option>
+      <option value="2">Kiayap</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" >Baranngay</label>
+    <select class="form-select" disabled>
+      <option value="1">Maitum</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Province</label>
+    <select class="form-select" disabled>
+      <option value="1">South Cotabato</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Plan</label>
+    <select class="form-select" disabled>
+      <option value="1">Household</option>
+      <option value="2">Commercial</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="09178845673" disabled>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="larryvilla@gmail.com" disabled>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox"  id="flexCheckDefault" disabled checked="true">
+    <label class="form-check-label" for="flexCheckDefault" disabled>
+      Notify via SMS
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+      Notify Email
+    </label>
+  </div>
+</form>
+
+<br>
+
+<div>
+  <%= link_to "Back to customers", customers_path %>
+</div>

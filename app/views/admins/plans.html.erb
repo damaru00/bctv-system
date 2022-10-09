@@ -1,0 +1,42 @@
+<h1>Plans</h1>
+<div class="input-group">
+  <label for="startDate">Start Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08"/>&nbsp;
+  <label for="startDate">End Date</label>&nbsp;&nbsp;
+  <input id="startDate" class="form-control" type="date" value="2022-10-08" />
+</div>
+<br>
+<div>
+  <div class="input-group">
+    <label for="startDate">Search</label>&nbsp;&nbsp;
+    <input id="startDate" class="form-control" type="text" />&nbsp;
+  </div>
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Price</th>
+    <th> Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>Household</td>
+    <td>100</td>
+    <td><a href="/admins/new_plan" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>Commercial</td>
+    <td>200</td>
+    <td><a href="/admins/new_plan" class="nav-link align-middle px-0 link-dark fs-4 bi-pencil"></a></td>
+  </tr>
+  </tbody>
+</table>
+
+<div>
+  <%= link_to "Add New Plan", admins_new_plan_path, class: "btn btn-primary" %>
+</div>
